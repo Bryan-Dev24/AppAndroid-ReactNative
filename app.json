@@ -3,11 +3,11 @@
   "displayName": "App Android React Native",
   "expo": {
     "name": "App Android React Native",
-    "slug": "app-android-react-native",
+    "slug": "App Android built with React-Native & Expo Default template",
     "scheme": "appandroid",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets//images/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,7 +16,7 @@
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/your-project-id"
+      "url": "#"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -30,18 +30,18 @@
       "package": "com.bryanjames.appandroidreactnative",
       "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
       "permissions": []
     },
     "web": {
-      "favicon": "./assets/favicon.png",
+      "favicon": "./assets/images/favicon.png",
       "bundler": "metro"
     },
     "extra": {
       "eas": {
-        "projectId": "your-project-id"
+        "projectId": "appandroid_reactnative_expo"
       }
     },
     "plugins": [

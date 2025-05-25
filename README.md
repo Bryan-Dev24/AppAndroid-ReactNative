@@ -48,7 +48,7 @@ Aplicativo móvel desenvolvido com React Native e Expo, seguindo as melhores pr�
 2. **Instale as dependências**
    ```bash
    npm install download && npm install react-native-screens react-native-safe-area-context &&
-   npm install @react-native/native @react-native/stack && npm install @expo/vector-icons
+   npm install @react-navigation/native @react-navigation/stack && npm install @expo/vector-icons
    ```
 
 3. **Inicie o servidor de desenvolvimento**
@@ -172,7 +172,7 @@ npm test -- --coverage
 npm run lint
 
 # Corrigir problemas de lint automaticamente
-npm run lint --force --fix
+npm run lint fix --force
 
 # Formatar código
 npm run format
